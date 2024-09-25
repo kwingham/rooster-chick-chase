@@ -2,13 +2,15 @@ import React from "react";
 import ClickTracker from "./components/ClickTracker";
 import "./styles/App.css";
 import sadRooster from "./assets/sad-rooster.webp";
+import "./styles/background.css"; // Background CSS
 
 function App() {
   return (
     <div className="app-container">
+      <div className="stars"></div>
       <h1>Rooster Chick Chase</h1>
       <ClickTracker />
-      <img src={sadRooster} alt="Sad Rooster" className="sad-rooster" />{" "}
+      <img src={sadRooster} alt="Sad Rooster" className="sad-rooster" />
     </div>
   );
 }
