@@ -22,8 +22,8 @@
 
   **Deployment**
 
-  - [ ] **Task 5.1:** Deploy the Client (Frontend) on Render
-  - [ ] **Task 5.2:** Deploy the Server (Backend) on Render
+  - [x] **Task 5.1:** Deploy the Client (Frontend) on Render
+  - [x] **Task 5.2:** Deploy the Server (Backend) on Render
 
   **Final Testing and Debugging**
 
@@ -40,7 +40,12 @@
       **Documentation and Submission**
 
       - [ ] **Task 8.1:** Document Your Code
+      
       - [ ] **Task 8.2:** Submit the Assignment
-
+      
+        # 
+      
+      ------
+      
       
 

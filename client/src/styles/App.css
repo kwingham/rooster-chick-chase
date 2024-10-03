@@ -18,6 +18,21 @@ body {
   width: 100%;
 }
 
+.start-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.start-button:hover {
+  background-color: #0056b3;
+}
+
 button {
   background-color: #007bff;
   color: white;
@@ -44,6 +59,7 @@ p {
   color: #007bff;
 }
 
+/* Sad rooster image */
 .sad-rooster {
   position: absolute;
   top: 15px;
@@ -59,6 +75,30 @@ p {
   }
 }
 
+/* Egg and chick positioning */
+.egg,
+.chick {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Chicken image grid */
+.chicken-grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.chicken {
+  max-width: 150px;
+  margin: 10px;
+}
+
+/* Responsive styles */
 @media (max-width: 768px) {
   .app-container {
     width: 90%;
@@ -76,5 +116,14 @@ p {
 
   .counter {
     font-size: 20px;
+  }
+
+  .egg,
+  .chick {
+    width: 80px;
+  }
+
+  .chicken {
+    width: 100px;
   }
 }

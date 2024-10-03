@@ -1,7 +1,5 @@
 /* Gradient background */
 body {
-  margin: 0;
-  overflow: hidden;
   background: linear-gradient(
     to bottom,
     #cc3838,
