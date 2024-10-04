@@ -4,7 +4,7 @@
 
 - [x] **Task 1.2:** Set Up Version Control (GitHub)
 
-  **Setting Up the Server-Side API (Backend)**  
+  **Setting Up the Server-Side API (Backend)**
 
   - [x] **Task 2.1:** Create Server Folder and Install Dependencies
   - [x] **Task 2.2:** Create API Routes (Express.js)
@@ -27,7 +27,7 @@
 
   **Final Testing and Debugging**
 
-  - [ ] **Task 6.1:** Test the Deployed Version
+  - [x] **Task 6.1:** Test the Deployed Version
 
   - [ ] **Task 6.2:** Debug Any Issues
 
@@ -40,12 +40,9 @@
       **Documentation and Submission**
 
       - [ ] **Task 8.1:** Document Your Code
-      
-      - [ ] **Task 8.2:** Submit the Assignment
-      
-        # 
-      
-      ------
-      
-      
 
+      - [x] **Task 8.2:** Submit the Assignment
+
+        #
+
+      ***
